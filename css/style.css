@@ -1,0 +1,34 @@
+/* 
+
+    inline css - simply, is styling a particular tag on the line it's created
+    it's not that great and should be avoided. 1/10
+    internal css - inside the file you're styling but inside a style tag inside the head tag... have to copy and paste over multiple pages. 3.7/10 for everything except effort. It's gets a solid / questionable 5/10. This tried its best but didn't succeed. A* for trying, apparently.
+
+    external css - this is 8/10 for 1 external css file... 
+
+*/
+
+* {
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: crimson;
+    align-items: left;
+    display: flex; /* we will be covering flex properly tomorrow afternoon. */
+    justify-content: space-evenly;
+    padding: 30px 20px; /* why are pixels not a great choice for size? vh, vw, %, em, cm, pt */
+    /* 30px = top bottom... 20px = left right */
+}
+
+.navbar ul li { /* this is targeting the .navbar class with ul li to be modified. */ 
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 15px 5px; /* top and bottom THEN left and right */
+}
