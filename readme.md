@@ -13,6 +13,7 @@ This is my first digital portfolio attempt.
 - [ ] Add CSS to the project
 - [ ] Add JS to the project
 - [ ] Add Dean to the project
+- [ ] Add HTML to the project
 
 ## Contributions
 
